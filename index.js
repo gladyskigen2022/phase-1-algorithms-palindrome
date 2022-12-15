@@ -10,7 +10,7 @@ const reverseArrayValues = arrayValues.reverse();
 
 //convert array to string
 const reverseWord = reverseArrayValues.join('');
-
+//query the word
 if(word == reverseWord) {
   return true;
 }
@@ -29,6 +29,15 @@ else{
 /*
   Add written explanation of your solution here
 */
+  //using built -in functions to check if is palindrome
+
+  // Write your algorithm here
+
+  //reverse the array values
+
+  //convert array to string
+
+  //query your word
 
 // You can run `node index.js` to view these console logs
 if (require.main === module) {
