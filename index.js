@@ -1,6 +1,26 @@
+//using built -in functions to check if is palindrome
+
 function isPalindrome(word) {
   // Write your algorithm here
+
+const arrayValues = word.split('');
+
+//reverse the array values
+const reverseArrayValues = arrayValues.reverse();
+
+//convert array to string
+const reverseWord = reverseArrayValues.join('');
+
+if(word == reverseWord) {
+  return true;
 }
+else{
+  return false;
+}
+
+}
+
+
 
 /* 
   Add your pseudocode here
